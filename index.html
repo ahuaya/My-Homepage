@@ -3,73 +3,28 @@
  <head>
   <meta charset="UTF-8">
   <title>阿花的个人主页</title>
+  <link rel="stylesheet" href="index.css">
   <style>
-  #hd{
-	width:100%;
-	height:360px;
-	position:absolute;
-	top:-600px;
-	left:0;
-  }
-  #hd_title{
-	background:white;
-	width:100%;
-	height:800px;
-	position:absolute;
-	top:500px;
-	left:0;
-  }
-
-  #logo{
-	position:absolute;
-	width:180px;
-	height:180px;
-	border-radius:50%;
-	border:5px solid white;
-	top:-90px;
-	left:200px;
-  }
-  #title{
-	display:block;
-	position:absolute;
-	top:-80px;
-	left:420px;
-  }
-  #h_r{
-	position:absolute;
-	top:130px;
-  }
-  #support{
-	border:none;
-	border-radius:5px;
-	width:280px;
-	height:90px;
-	background:#F96854;
-	font-size:20px;
-	color:white;
-	position:absolute;
-	right:250px;
-	top:20px;
-  }
+	
   </style>
  </head>
   <header>
 	<div id="hd">
-		<img src="img/header.gif" width="100%"alt="hd_bg" style="border-radius:10px;">
+		<img src="img/header.GIF" width="100%" alt="hd_bg">
 	</div>
 	<div id="hd_title">
 		<div id="logo">
-			<img src="img/portrait.jpg" width="180px" height="180px"; alt="portrait" style="border-radius:50%">
+			<img src="img/portrait.jpg" width="180px" height="180px"; alt="portrait">
 		</div>
 		<div id="title">
-			<h3 style="font-size:46px;color:white;margin:10px;">欢迎访问阿花的个人主页</h3>
-			<ul style="list-style-type:none;font-size:30px;">
-				<li style="float:left;padding:50px;padding-top:10px;padding-left:0px"><a href="#">导航1</a></li>
-				<li style="float:left;padding:50px;padding-top:10px"><a href="#">导航2</a></li>
-				<li style="float:left;padding:50px;padding-top:10px"><a href="#">导航3</a></li>
+			<h3>欢迎访问阿花的个人主页</h3>
+			<ul id="nav">
+				<li style="padding-left:0px"><a href="#">导航1</a></li>
+				<li><a href="#">导航2</a></li>
+				<li><a href="#">导航3</a></li>
 			</ul>
 		</div>
-		<div id="h_r" style="width:100%;border-bottom:5px solid #85BFE2"></div>
+		<div id="h_r"></div>
 		<div><button id="support">I need your support</button></div>
 	</div>
   </header>
